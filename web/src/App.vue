@@ -7,24 +7,33 @@
 import NavBar from './components/NavBar.vue';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-
-'import $ from jquery;'
-import { ref } from 'vue';
+// import $ from 'jquery'
 
 export default {
   components: {
     NavBar,
   },
   setup() {
-    const bot_name = ref('Bot name');
-    const bot_rating = ref('Bot rating');
 
-    return {
-      bot_name,
-      bot_rating,
-    };
-  },
 
+
+
+    //   $.ajax({
+    //     url: "http://127.0.0.1:3000/user/account/register/",
+    //     type: "post",
+    //     data: {
+    //       username: "czh3",
+    //       password: "1",
+    //       confirmedPassword: "1",
+    //     },
+    //     success(resp) {
+    //       console.log(resp);
+    //     },
+    //     error(resp) {
+    //       console.log(resp);
+    //     }
+    //   })
+  }
 }
 </script>
 
