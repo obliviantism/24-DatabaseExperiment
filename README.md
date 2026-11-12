@@ -1,4 +1,4 @@
-# 24YNU-DatabaseExperiment
+# 24-DatabaseExperiment
 ## 
 项目实现了前后端框架和整体运行逻辑的搭建，主要技术是数据库：MySQL
 后端：SpringBoot
